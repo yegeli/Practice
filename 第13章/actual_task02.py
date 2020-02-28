@@ -41,7 +41,6 @@ def calculate_date():
 
 print("******************推算几天后的日期**********************")
 while True:
-
     calculate_date()
     s = input("是否要继续推算y/n:")
     if s == 'n':
