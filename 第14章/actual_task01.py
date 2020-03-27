@@ -9,7 +9,7 @@ import time
 def info():
     print('''提示菜单：
     0：退出
-    1：查看登录日志 
+    1：查看登录日志 ·
     ''')
 
 def write_log(username):

@@ -1,3 +1,16 @@
+"""
+    python 操作数据库的通用流程：
+        1、开始
+        2、创建connection
+        3、获取cursor 游标对象
+        4、执行sql语句，处理数据结果
+        5、关闭cursor
+        6、关闭connection
+
+"""
+
+
+
 import pymysql
 
 db = pymysql.connect("localhost", 'root', '1234', 'mrsoft')
