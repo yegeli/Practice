@@ -23,14 +23,14 @@ detla=Countdown-now
 day=detla.days
 print(" \033[0;33m 卡塔尔世界杯还有：  "+  str(day) +" 天")
 
-Countdown= datetime.datetime.strptime('2020-6-5','%Y-%m-%d')
+Countdown= datetime.datetime.strptime('2018-10-10','%Y-%m-%d')
 detla=Countdown-now
 day=detla.days
-print(" \033[0;33m 亲爱的小宝贝生日：  "+  str(day) +" 天")
+print(" \033[0;33m ########：  "+  str(day) +" 天")
 
-Countdown= datetime.datetime.strptime('2019-11-11','%Y-%m-%d')
+Countdown= datetime.datetime.strptime('2018-10-10','%Y-%m-%d')
 detla=Countdown-now
-day=abs(detla.days)
+day=abs(detla.days/30)
 print(" \033[0;33m 和亲爱的在一起：  "+  str(day) +" 天")
 
 print(datetime.datetime.today())
@@ -46,5 +46,3 @@ print(" \033[0;32m 今天我们学习参数问题，加油哦！")
 print(" \033[0;33m 今天我们学习参数问题，加油哦！")
 print(" \033[0;34m 今天我们学习参数问题，加油哦！")
 print(" \033[0;35m 今天我们学习参数问题，加油哦！")
-
-print(datetime.datetime.strftime())
